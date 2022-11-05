@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 	cout<<"hello world"<<endl<<endl;
-	int a;
+	int a,b1;
 	cout<<"Enter a number ";
 	cin>>a;
 	cout<<"the square root of "<<a<<" is "<<pow(a,0.5);
