@@ -3,7 +3,6 @@ using namespace std;
 namespace arun{
 	int age=12;
 	string name="arun";
-	float mark=94.5;
 }
 int main(){
 	
