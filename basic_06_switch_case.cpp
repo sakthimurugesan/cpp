@@ -1,5 +1,9 @@
 #include <iostream>
 using namespace std;
+namespace arun{
+	int age=12;
+	string name="arun";
+}
 int main(){
 	
 	char a;
