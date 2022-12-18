@@ -3,6 +3,7 @@ using namespace std;
 class A{
     private:
     int x;
+    friend void set_value(A &o,int x1);
     public:
     A(){
         x=0;
@@ -10,7 +11,7 @@ class A{
     void print(){
         cout<<"X : "<<x<<endl;
     }
-    friend void set_value(A &o,int x1);
+    
 };
 
 void set_value(A &o,int x1){

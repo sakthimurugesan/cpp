@@ -1,9 +1,16 @@
 #include <iostream>
-#include <math.h>
-using namespace  std;
+using namespace std;
+int main(){
+    int p=12,*q,**s,***r,****t;
+    q=&p;
+    s=&q;
+    r=&s;
+    ***r+=1;
+    t=&r;
+    ****t+=1;
 
-int main() {
-    float f1=12.535;
-    int a=12;
-    return 0;
-}///namespace  std ;
+    cout<<p<<endl;
+    cout<<*q<<endl;
+    cout<<**s<<endl;
+
+}

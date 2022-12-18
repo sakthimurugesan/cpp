@@ -18,14 +18,10 @@ void disp(){
 
 
 };
-
 int main(){
-
     A a;
     B b;
     a.disp();
     b.disp();
-
-
 	return 0;
 }

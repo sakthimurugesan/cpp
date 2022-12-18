@@ -17,7 +17,6 @@ b(){
 };
 
 int main(){
-   a o;
    b o1;
    o1.sum();
 	return 0;
