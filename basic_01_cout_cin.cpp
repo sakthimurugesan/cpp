@@ -1,6 +1,6 @@
 #include <iostream>
 #include <math.h>
-using namespace std;
+//using namespace std;
 int main(){
 	cout<<"hello world   !@#"<<endl<<endl;
 	int a,b1,b2;
