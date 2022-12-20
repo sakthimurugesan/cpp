@@ -2,7 +2,7 @@
 #include <math.h>
 using namespace std;
 int main(){
-	cout<<"hello world"<<endl<<endl;
+	cout<<"hello world   !@#"<<endl<<endl;
 	int a,b1,b2;
 	cout<<"Enter a number ";
 	cin>>a;
