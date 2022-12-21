@@ -6,6 +6,7 @@ int main(){
 	int a,b1,b2;
 	cout<<"Enter a number ";
 	cin>>a;
+	cout<<"\n";
 	cout<<"the square root of "<<a<<" is "<<pow(a,0.5);
 	return 0;
 }
