@@ -4,7 +4,7 @@
 input function
 capacity function
 iterator function
-maniplulating function
+maniplulating function;
 */
 using namespace std;
 int main(){
