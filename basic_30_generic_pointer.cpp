@@ -6,7 +6,5 @@ int main(){
     p=&a;
     *(int *)p+=1;
     cout<<*(int *)p<<endl;
-
-   
 	return 0;
 }

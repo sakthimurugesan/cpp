@@ -16,7 +16,7 @@ void setdata(){
 }
 
 int main(){
-	A o;
+	A o1;
 	setdata();
 	return 0;
 }

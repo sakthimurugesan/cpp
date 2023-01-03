@@ -31,7 +31,7 @@ int main(){
         }
 
         cout<<"\nAfter updating "<<endl;
-        for(int k=0;k<n+n_s;k++){
+        for(int k=0;k<=n+n_s-1;k++){
             cout<<*(ptr+k)<<"\t";
         }
         

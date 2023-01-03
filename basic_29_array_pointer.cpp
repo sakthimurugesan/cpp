@@ -16,4 +16,9 @@ int main(){
 	}
 	cout<<"The sum = "<<sum<<endl;
 	return 0;
+	/*
+	int arr[]={1,2,3,4};
+	int *p=&a,*p1=a,*p2=&a[0];
+	
+	*/
 }
