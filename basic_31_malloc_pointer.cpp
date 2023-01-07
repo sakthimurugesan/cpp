@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int i,n;
     cout<<"Enter a nummber : ";cin>>n;
-    int *ptr=(int *)malloc(n*sizeof(int));
+    int *ptr;ptr=(int *)malloc(n*sizeof(int));
     //malloc(n*data_size)
     cout<<"Malloc pointer created"<<endl;
     for(i=0;i<n;i++){

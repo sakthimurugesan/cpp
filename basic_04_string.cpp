@@ -5,6 +5,9 @@ input function
 capacity function
 iterator function
 maniplulating function;
+
+
+t char[100];
 */
 using namespace std;
 int main(){

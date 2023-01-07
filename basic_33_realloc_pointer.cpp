@@ -27,7 +27,7 @@ int main(){
 
         for(int j=n;j<n_s+n;j++){
             cout<<"Enter "<<j+1<<" value : ";
-            cin>>*(ptr+j);
+            cin>>ptr[j];
         }
 
         cout<<"\nAfter updating "<<endl;

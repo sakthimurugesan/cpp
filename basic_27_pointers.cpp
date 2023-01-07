@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-	int a=12,*p,**q,***r;
-	p=&a;
+	int a=12,*p=&a,**q,***r;
 	q=&p;
 	r=&q;
 	cout<<"The value of a :"<<a<<endl;
