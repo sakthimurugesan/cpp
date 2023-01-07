@@ -11,8 +11,7 @@ int random(int n){
 
 int main()
 {
-    int n;
-    cout<<"Enter a number : ";cin>>n;
+    int n=45+4;
     cout<<"Random value is : "<<random(n);
     return 0;
 }
