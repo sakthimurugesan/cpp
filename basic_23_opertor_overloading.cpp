@@ -12,7 +12,7 @@ class C{
     }
 /*
 
-clame operator->keyword Operator_Symbol (argument list)
+clsname operator->keyword Operator_Symbol (argument list)
 { \\ Function body }
 
 ssna

@@ -17,7 +17,7 @@ class bmw:public car{
 
 int main(){
     bmw b;
-    car *p=NULL;
+    car *p;
     bmw *t;
     t=&b;
     p=&b;

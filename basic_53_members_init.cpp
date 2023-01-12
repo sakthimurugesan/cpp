@@ -4,7 +4,7 @@ class base{
     private:
     int x;
     public:
-    base(int a):x(a){}
+    base(int a):x(a){cout<<"Hello"<<endl;}
     void print(){cout<<"The value of x : "<<x<<endl;}
 };
 
