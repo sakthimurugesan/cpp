@@ -38,6 +38,7 @@ cout<<"Fullname using append\t"<<fullname1<<endl;
 string noun;
 cout<<"Enter a noun ";
 cin>>noun;
+
 noun.push_back('s');
 cout<<noun<<endl;
 noun.pop_back();

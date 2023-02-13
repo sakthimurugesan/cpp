@@ -3,7 +3,7 @@ using namespace std;
 
 class car{
     public:
-void start(){
+virtual void start(){
     cout<<"car start "<<endl;
 }
 };
@@ -12,18 +12,14 @@ class bmw:public car{
     void advance_gear(){
         cout<<"BMW Advance gear"<<endl;
     }
+    void start(){
+    cout<<"car start from bmw"<<endl;
+}
 };
 
 
 int main(){
-    bmw b;
-    car *p;
-    bmw *t;
-    t=&b;
-    p=&b;
-    p->start();
-    (*p).start();
-    t->advance_gear();
-    (*t).advance_gear();
+    car *c=new bmw();
+    c->start();
 	return 0;
 }

@@ -32,6 +32,7 @@ C a(11,21);
 C b(11,13);
 C d;
 d=a+b;
+//d=a.operator+b
 d.disp();
 
 	return 0;

@@ -24,13 +24,6 @@ int main()
     cout<<"b.at(3)\t\t"<<b.at(3)<<endl;
     cout<<"b.capacity()\t"<<b.capacity()<<endl;
     cout<<"b.empty()\t"<<b.empty()<<endl;
-    
-
-
-
-
-
-
 
     /*
 
@@ -54,6 +47,9 @@ cend -----------> last_element from start
 crbegin ----------> last_element from start
 crend -----------> first_element from start
 
+push_back(value) value will be added at last index
+
+pop_back() remove last element and remove the element
 
 */
 

@@ -1,18 +1,30 @@
-class Add:
-    def __init__(self):
-        pass
-    def add(m1,m2):
-        print(m1+m2)
-class Sub:class Add:
-    def __init__(self):
-        self.m1=0
-        self.m2=0
-        self.get()
-        Add.add(self.m1,self.m2)
-        self.sub()
-    def get(self):
-        self.m1=int(input())
-        self.m2=int(input())
-    def sub(self):
-        print(self.m1-self.m2)
-b=Sub()
+import numpy as np
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        n=[]
+        n1=[]
+        n2=[]
+        for i in nums:
+            if(i>0):
+                n.append(i)
+            elif i<0:
+                n1.append(i)
+            else:
+                n2.append((i))
+        l=[]
+        for i in range(len(n)):
+            for j in range(len(n1)):
+                for k in range(len(n2)):
+                    if(1):
+                        if(n1[i]+n[j]+n2[k]==0):
+                            s=[n1[i],n[j],n2[k]]
+                            s.sort()
+                            chk=0
+                            for m in range(len(l)):
+                                if(s==l[m]):
+                                    chk+=1
+                            if(chk==0):
+                                l.append(s)
+        return l
+        
+        
