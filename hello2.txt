@@ -3,4 +3,9 @@ hello 2
 hello 3
 hello 4
 hello 5
+<<<<<<< HEAD
 hello 7
+=======
+hello 6
+
+>>>>>>> cpp2
